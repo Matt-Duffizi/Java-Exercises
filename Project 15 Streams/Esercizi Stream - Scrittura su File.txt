@@ -1,0 +1,22 @@
+Esercizi Stream 
+1)Creare il programma KeyLoggerche legga e memorizzi l’input da console dell’utente e successivamente lo scriva in un file di testo “logger.txt”.
+
+2)Creare un programma RisolviEquazioni che si svolge nel seguente modo:
+	a.Prende in input un file di testo “equazioni.txt” contenente delle equazioni nella forma (lasciare uno spazio tra gli operandi e gli operatori)
+	3 + 5 =
+	7 / 2 = 
+	2.5 * 3 = 
+	8 -2 =
+	b.Decodifica ciascuna riga (ricavando i due operandi e l’operatore)
+	c.Esegue l’equazione 
+	d.Scrive inoutput su un file di testo “equazionisvolte.txt” la soluzione delle equazioni nella seguente forma:
+	3 + 5 = 8
+	7 / 2 = 3.5
+	2.5 * 3 = 7.5
+	8 – 2 = 6
+
+Consiglio: suddividere il problema in sotto problemi  e risolvere questi in appositi metodi statici. Utilizzare la classe StringTokenizerper il parse delle righe (separatore lo spazio).
+
+3)Creare il programma SwapFileche permette di scambiare  il contenuto di due file testuali(precedentemente creati): “pippo.txt” e “pluto.txt”. Il programma dovrà svolgersi nel seguente modo:
+	a.Creare due oggetti file che puntino a due file testuali presenti sulla memoria di massa,
+	b.Richiamare un metodo (interno alla stessa classe) static boolean swap(File f1, File f2)che dati due oggetti file restituisce un boolean: truese il contenuto dei due file è stato inverto, falsealtrimenti.
